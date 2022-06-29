@@ -13,7 +13,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(actions: [
+      appBar: AppBar(title: Text('Big Sale'),
+        actions: [
         IconButton(onPressed: () {}, icon: const Icon(Icons.shopping_bag_sharp))
       ]),
       body: Center(
