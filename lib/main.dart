@@ -2,11 +2,11 @@ import 'package:big_sale_app/page/HomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const BigSale());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class BigSale extends StatelessWidget {
+  const BigSale({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
