@@ -13,9 +13,12 @@ class _ProductPageState extends State<ProductPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(actions: [
-        IconButton(onPressed: () {}, icon: const Icon(Icons.shopping_bag_sharp))
-      ]),
+      appBar: AppBar(
+          actions: [
+            IconButton(onPressed: () {}, icon: Icon(Icons.search)),
+            IconButton(
+                onPressed: () {}, icon: const Icon(Icons.shopping_bag_sharp))
+          ]),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
